@@ -40,7 +40,7 @@ From the documentation available, it seems that progress is made when a certain 
 
 Considered as the best way to contribute to Mopidy, helping other users is highly appreciated as it frees up development time from contributors.
 
-A great place to start is by joining both IRC (*#mopidy* at [irc.freenode.net](irc.freenode.net)) and the [discussion forum](discuss.mopidy.com) and answering questions from users in need of help.
+A great place to start is by joining both IRC (*#mopidy* at [irc.freenode.net](irc.freenode.net)) and the [discussion forum](http://discuss.mopidy.com) and answering questions from users in need of help.
 
 #### Issue Guidelines
 
