@@ -18,7 +18,8 @@
 <div id='intro'/>
 ## What is Mopidy?
 
-Mopidy is an extensible music server written in Python which plays music from local disk (vanilla) or Spotify, SoundCloud, Google Play Music and other cloud servers through the use of extensions.
+Mopidy is an extensibl
+asde music server written in Python which plays music from local disk (vanilla) or Spotify, SoundCloud, Google Play Music and other cloud servers through the use of extensions.
 It runs on Linux computers or Macs that have a network connectivity and audio output.
 
 Since it is just a server (an [MPD](http://www.musicpd.org) and HTTP server to be exact), additional frontends need to be used in other to control Mopidy.
