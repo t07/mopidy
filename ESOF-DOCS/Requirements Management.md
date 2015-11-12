@@ -2,7 +2,6 @@
 
 ## Table of contents
 - [Mopidy Requirements](#mopidy-requirements)
-    - [Table of contents](#table-of-contents)
     - [Introduction](#introduction)
     - [Requirements](#requirements)
         - [System Requirements](#system-requirements)
@@ -15,17 +14,20 @@
 
 ## Introduction
 
+Mopidy is an extensible music server written in Python which plays music from local disk.
+It was made to be very customizable and extensible so that both the users and developers can shape it the way they want it.
+
+The software was designed into various modules which accompanied with a good documentation makes it very easy to contribute to. It also makes use of a very laid back policy regarding new feature requests.
+
 ## Requirements
 
 ### System Requirements
 
-Mopidy requires a Unix based system (for example a Linux distribution or a Macintosh) with network connectivity and audio output.
+Mopidy requires a Unix based system (for example a Linux distribution or a Macintosh) with network connectivity and audio output. It also needs Python to be installed on the system, although most distributions make use of a package manager for dealing with dependencies.
 
 ### Elicitation and Analysis
 
-New features can be suggested essentially by everyone, however, the ones that are added are a mix of what the developers feel is most important/requested and other functionality they think is fun to make, even though they may only be useful for a very limited number of users or for specific use cases.
-
-The suggestions and discussions of these features take place in the [issue tracker](https://github.com/mopidy/mopidy/issues) of the Github repository, which later are merged upstream through the use of pull requests.
+New features can be suggested essentially by everyone. The suggestions and discussions of these features take place in the [issue tracker](https://github.com/mopidy/mopidy/issues) of the Github repository, which later are merged upstream through the use of pull requests.
 
 ### Specification
 
@@ -36,6 +38,11 @@ Mopidy itself does not have a SRS (Software Requirements Specification) document
 * [Module Reference](https://mopidy.readthedocs.org/en/latest/modules/)
 
 ### Validation
+
+The development of this project is very informal and, as such, the release schedule as its discussion isn't very strict. The features that are acepted and added are a mix of what the developers think is most important/requested as well as features that they just find fun to make, even though they may only be of use for a very limited number of users.
+
+Following a [Semantic Versioning](http://semver.org/)  every major release is accompanied by a FAQ regarding big changes to the extensions API which developers can resort to. 
+Bugfixes are released whenever bugs are discovered and too serious to wait, though bugfix releases are not provided to older versions besides the newest to prevent the spread of the limited resources this project has.
 
 ### Use cases
 
